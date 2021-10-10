@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class exercise45
+
+exercise45 <|-- exercise45_input.txt
+exercise45 <|-- exercise45_output.txt
+exercise45_input.txt <|-- words
+exercise45_output.txt <|-- words
+
+
+@enduml
